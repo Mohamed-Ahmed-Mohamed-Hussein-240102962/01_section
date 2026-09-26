@@ -8,6 +8,7 @@ on:
   push:
     branches: [main]
     paths: src/**
+    paths-ignore: .github/**
 jobs:
   deploy:
     runs-on: ubuntu-latest
